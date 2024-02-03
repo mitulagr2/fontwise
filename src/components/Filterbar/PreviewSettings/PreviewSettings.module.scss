@@ -1,0 +1,13 @@
+.PreviewTextField {
+  padding: 16px 0;
+}
+
+.FontModifier {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.FontModifier > *:last-child {
+  margin: -16px;
+}

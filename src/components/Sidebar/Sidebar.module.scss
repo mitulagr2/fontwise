@@ -1,0 +1,54 @@
+.Sidebar {
+  max-width: 96px;
+  padding: 24px 0;
+  display: flex;
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(105, 145, 214, 0.08)),
+      to(rgba(105, 145, 214, 0.08))
+    ),
+    #fff;
+  background: -webkit-linear-gradient(
+      bottom,
+      rgba(105, 145, 214, 0.08),
+      rgba(105, 145, 214, 0.08)
+    ),
+    #fff;
+  background: linear-gradient(
+      0deg,
+      rgba(105, 145, 214, 0.08),
+      rgba(105, 145, 214, 0.08)
+    ),
+    #fff;
+}
+
+.tabIcon {
+  writing-mode: horizontal-tb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 80px;
+  height: 56px;
+}
+
+.tabIcon span:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-bottom: 4px;
+  width: 56px;
+  height: 32px;
+}
+
+.tabIcon[data-selected='true'] span:first-of-type {
+  background-color: var(--md-sys-color-secondary-container);
+}
+
+.tabIcon span:last-child {
+  font-size: 12px;
+}

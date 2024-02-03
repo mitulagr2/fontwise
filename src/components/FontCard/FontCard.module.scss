@@ -1,0 +1,129 @@
+.FontCard {
+  /* --md-ripple-hover-color	--md-sys-color-on-surface
+--md-ripple-pressed-color	--md-sys-color-on-surface */
+
+  /* --md-divider-color	--md-sys-color-outline-variant
+--md-divider-thickness	1px */
+
+  position: relative;
+  border-radius: 8px;
+  // height: 64px;
+  // width: 64px;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 32px 24px;
+}
+
+.FontCard > div {
+  display: flex;
+  align-items: center;
+}
+
+.FontCard > div:first-of-type {
+  justify-content: space-between;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.FontActions {
+  margin-right: 24px;
+}
+
+.FontActions::after {
+  height: 100%;
+  width: 80px;
+  position: absolute;
+  content: '';
+  right: 0;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(0, #fff),
+    color-stop(0, #fff),
+    to(hsla(0, 0%, 100%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    #fff,
+    #fff 0,
+    hsla(0, 0%, 100%, 0)
+  );
+  background: linear-gradient(270deg, #fff, #fff 0, hsla(0, 0%, 100%, 0));
+}
+
+.FontActions:hover::after {
+  z-index: -1;
+}
+
+.FontInfo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #5f6368;
+}
+
+.FontInfo a {
+  text-decoration: none;
+}
+
+.FontInfo h4 {
+  font-size: 16px;
+  color: #202124;
+}
+
+.VerticalDivider {
+  border-top: 0;
+  border-right-style: solid;
+  border-right-color: rgba(0, 0, 0, 0.12);
+  border-right-width: 1px;
+  display: block;
+  // width: 1px;
+  height: 16px;
+  margin: 0 -4px;
+  // background-color: black;
+}
+
+.FontCard > div:last-of-type {
+  position: relative;
+  //   margin-right: 24px;
+  // transition-property: opacity, transform;
+  // font-family: 'Roboto variant0', Tofu;
+  // font-weight: 400;
+  // font-style: normal;
+  // font-stretch: normal;
+  // font-optical-sizing: auto;
+  // text-align: start;
+  // line-height: initial;
+  // opacity: 1;
+  // transition-duration: 350ms;
+}
+
+.FontCard > div:last-of-type::after {
+  width: 80px;
+  content: '';
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(0, #fff),
+    color-stop(0, #fff),
+    to(hsla(0, 0%, 100%, 0))
+  );
+  background: -webkit-linear-gradient(
+    right,
+    #fff,
+    #fff 0,
+    hsla(0, 0%, 100%, 0)
+  );
+  background: linear-gradient(270deg, #fff, #fff 0, hsla(0, 0%, 100%, 0));
+}

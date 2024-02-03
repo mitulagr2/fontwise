@@ -1,0 +1,22 @@
+.Body {
+  display: flex;
+  flex-direction: column;
+}
+
+.Body > * {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.Body h4 {
+  margin-top: 8px;
+}
+
+.UploadText::after {
+  content: var(--upload_text, 'Upload File');
+}
+
+.Body > * > * {
+  margin-right: 8px;
+}

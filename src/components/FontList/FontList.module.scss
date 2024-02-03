@@ -1,0 +1,18 @@
+.ScrollableDiv {
+  position: relative;
+  display: table;
+}
+
+.ScrollableDiv > div > div {
+  padding: 140px 60px;
+  position: absolute;
+  display: table-cell;
+  width: calc(100% - 120px);
+  height: calc(100% - 140px);
+  overflow-x: hidden !important;
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+}
+.ScrollableDiv > div > div::-webkit-scrollbar {
+  display: none !important;
+}

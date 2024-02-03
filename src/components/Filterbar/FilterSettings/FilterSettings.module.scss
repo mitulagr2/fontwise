@@ -1,0 +1,42 @@
+.Subheading {
+  display: flex;
+  align-items: center;
+  min-height: 72px;
+}
+
+.Subheading > *:first-child {
+  margin: 8px 16px;
+}
+
+.Subheading > h4 {
+  font-weight: 600;
+}
+
+.Subset,
+.Technology,
+.Stroke,
+.Classification,
+.SliderStyleCount {
+  margin-bottom: 24px;
+}
+
+.Technology {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Technology > * {
+  margin-right: 8px;
+}
+
+.SliderStyleCount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SliderStyleCount > *:first-child {
+  font-size: 14px;
+  text-wrap: nowrap;
+}
