@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Fontwise
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+Discover, upload, and manage fonts easily.
 
-In the project directory, you can run:
+## Solution
 
-### `npm start`
+Fontwise is a web platform where users can explore, bookmark, and upload fonts. It features advanced search, interactive previews, and efficient sorting and filtering.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Extensive Font Library:** A comprehensive database of fonts that includes various styles and families with detailed information such as usage permissions and creator.
 
-### `npm test`
+2. **User-Generated Content:** Users aren't just passive browsers and can upload their custom-designed fonts for exposure and feedback.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Bookmarking System:** Whether you’re gathering potential options for a project or simply keeping track of inspiring designs, this will help manage your favorite fonts.
 
-### `npm run build`
+4. **Sorting and Filtering:** Users can sort by categories like font family, date added, popularity, and style, or use filters to narrow down choices.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. **Interactive Font Viewer:** Lets you see how a font performs in action and is invaluable for assessing readability, aesthetic appeal, and overall functionality.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. **Community Interaction:** The platform encourages interaction through user ratings and reviews, forums for discussions on typography.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. **User Authentication and Profiles:** Profile management where users can set preferences, manage uploads, and view bookmarked fonts.
 
-### `npm run eject`
+8. **Dashboard and Analytics:** To manage content, monitor uploads, and track user engagement for continuous improvement.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+9. **Design Resources:** For those keen to learn more about typography, Fontwise provides articles, tutorials, and tips on everything from basic typography rules to advanced design techniques.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+10. **Font Pairing Suggestions:** Suggests compatible font pairings, helping users effortlessly create visually appealing designs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Phases
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Phase 0 / V0 / Alpha
 
-## Learn More
+List all fonts and create new ones.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Phase 1 / V1 / Beta (Optional)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bookmark favorites, search, sort, and filter existing fonts.
 
-### Code Splitting
+### Phase 2 / V2 / Release Candidate (Optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Interactive list viewer and handle users.
 
-### Analyzing the Bundle Size
+### Phase 3 / V3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Analytics and community pages.
 
-### Making a Progressive Web App
+### Phase N / Future Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Font pairing suggestions and design resources.
 
-### Advanced Configuration
+## Implementation / Technical Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Tech stack:
 
-### Deployment
+  - Frontend - React and Material 3
+  - Backend - Node.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Expected constraints:
+  - Glitch projects sleep after 5 minutes if they are not used.
